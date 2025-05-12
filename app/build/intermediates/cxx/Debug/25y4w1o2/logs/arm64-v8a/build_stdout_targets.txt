@@ -1,0 +1,53 @@
+ninja: Entering directory `D:\vs code\ReactNative\FirstApp\android\app\.cxx\Debug\25y4w1o2\arm64-v8a'
+[0/2] Re-checking globbed directories...
+[1/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/6183c921a555e2f0c3bc59b01b3e62aa/build/generated/source/codegen/jni/react/renderer/components/rnsvg/States.cpp.o
+[2/23] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/EventEmitters.cpp.o
+[3/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/a859eb435e281f89efcee896f08d358b/react-native-svg/common/cpp/react/renderer/components/rnsvg/RNSVGImageState.cpp.o
+[4/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/e5469e351f533ec7912ea97ed1c68929/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp.o
+D:/vs code/ReactNative/FirstApp/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp:31:44: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   31 | void RNSVGImageEventEmitter::onLoad(OnLoad $event) const {
+      |                                            ^
+D:/vs code/ReactNative/FirstApp/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp:32:26: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   32 |   dispatchEvent("load", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                          ^
+D:/vs code/ReactNative/FirstApp/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp:32:43: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   32 |   dispatchEvent("load", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                           ^
+D:/vs code/ReactNative/FirstApp/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp:33:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   33 |     auto $payload = jsi::Object(runtime);
+      |          ^
+D:/vs code/ReactNative/FirstApp/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp:36:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   36 |   source.setProperty(runtime, "width", $event.source.width);
+      |                                        ^
+D:/vs code/ReactNative/FirstApp/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp:37:41: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   37 |   source.setProperty(runtime, "height", $event.source.height);
+      |                                         ^
+D:/vs code/ReactNative/FirstApp/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp:38:38: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   38 |   source.setProperty(runtime, "uri", $event.source.uri);
+      |                                      ^
+D:/vs code/ReactNative/FirstApp/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp:39:3: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   39 |   $payload.setProperty(runtime, "source", source);
+      |   ^
+D:/vs code/ReactNative/FirstApp/node_modules/react-native-svg/android/build/generated/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp:41:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   41 |     return $payload;
+      |            ^
+9 warnings generated.
+[5/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/09b92ccceaf80b0aee70d2dd9a1fe979/source/codegen/jni/react/renderer/components/rnsvg/rnsvgJSI-generated.cpp.o
+[6/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/52ef3a6d3a79001046ab24eefd88c8a3/common/cpp/react/renderer/components/rnsvg/RNSVGLayoutableShadowNode.cpp.o
+[7/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/e5469e351f533ec7912ea97ed1c68929/generated/source/codegen/jni/react/renderer/components/rnsvg/ShadowNodes.cpp.o
+[8/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/rnsvg.cpp.o
+[9/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/52ef3a6d3a79001046ab24eefd88c8a3/common/cpp/react/renderer/components/rnsvg/RNSVGImageShadowNode.cpp.o
+[10/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/09b92ccceaf80b0aee70d2dd9a1fe979/source/codegen/jni/react/renderer/components/rnsvg/ComponentDescriptors.cpp.o
+[11/23] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/267f55eedf08248ca3f4baa23d8f0a99/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp.o
+[12/23] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/267f55eedf08248ca3f4baa23d8f0a99/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp.o
+[13/23] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/States.cpp.o
+[14/23] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/Props.cpp.o
+[15/23] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp.o
+[16/23] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ShadowNodes.cpp.o
+[17/23] Building CXX object rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/6183c921a555e2f0c3bc59b01b3e62aa/build/generated/source/codegen/jni/react/renderer/components/rnsvg/Props.cpp.o
+[18/23] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp.o
+[19/23] Linking CXX shared library "D:\vs code\ReactNative\FirstApp\android\app\build\intermediates\cxx\Debug\25y4w1o2\obj\arm64-v8a\libreact_codegen_rnsvg.so"
+[20/23] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/RNVectorIconsSpec-generated.cpp.o
+[21/23] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/79f13f6bc15ca42794a4befe9be9ee84/codegen/jni/react/renderer/components/rnscreens/ComponentDescriptors.cpp.o
+[22/23] Linking CXX shared library "D:\vs code\ReactNative\FirstApp\android\app\build\intermediates\cxx\Debug\25y4w1o2\obj\arm64-v8a\libreact_codegen_rnscreens.so"
+[23/23] Linking CXX shared library "D:\vs code\ReactNative\FirstApp\android\app\build\intermediates\cxx\Debug\25y4w1o2\obj\arm64-v8a\libappmodules.so"

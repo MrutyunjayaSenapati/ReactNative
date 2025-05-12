@@ -1,0 +1,152 @@
+ninja: Entering directory `D:\vs code\ReactNative\FirstApp\android\app\.cxx\Debug\25y4w1o2\armeabi-v7a'
+[0/2] Re-checking globbed directories...
+[1/90] Building CXX object RNDateTimePickerCGen_autolinked_build/CMakeFiles/react_codegen_RNDateTimePickerCGen.dir/react/renderer/components/RNDateTimePickerCGen/States.cpp.o
+[2/90] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/States.cpp.o
+[3/90] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/Props.cpp.o
+[4/90] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/EventEmitters.cpp.o
+[5/90] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/ShadowNodes.cpp.o
+[6/90] Building CXX object RNDateTimePickerCGen_autolinked_build/CMakeFiles/react_codegen_RNDateTimePickerCGen.dir/react/renderer/components/RNDateTimePickerCGen/ComponentDescriptors.cpp.o
+[7/90] Building CXX object RNDateTimePickerCGen_autolinked_build/CMakeFiles/react_codegen_RNDateTimePickerCGen.dir/react/renderer/components/RNDateTimePickerCGen/EventEmitters.cpp.o
+[8/90] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/rnasyncstorage-generated.cpp.o
+[9/90] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/rnasyncstorageJSI-generated.cpp.o
+[10/90] Building CXX object RNDateTimePickerCGen_autolinked_build/CMakeFiles/react_codegen_RNDateTimePickerCGen.dir/RNDateTimePickerCGen-generated.cpp.o
+[11/90] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/ComponentDescriptors.cpp.o
+[12/90] Building CXX object CMakeFiles/appmodules.dir/OnLoad.cpp.o
+[13/90] Building CXX object RNDateTimePickerCGen_autolinked_build/CMakeFiles/react_codegen_RNDateTimePickerCGen.dir/react/renderer/components/RNDateTimePickerCGen/Props.cpp.o
+[14/90] Building CXX object RNDateTimePickerCGen_autolinked_build/CMakeFiles/react_codegen_RNDateTimePickerCGen.dir/13e5db451150cc1628879224ca4ec527/RNDateTimePickerCGenJSI-generated.cpp.o
+[15/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/RNCAndroidDropdownPickerState.cpp.o
+[16/90] Building CXX object RNDateTimePickerCGen_autolinked_build/CMakeFiles/react_codegen_RNDateTimePickerCGen.dir/react/renderer/components/RNDateTimePickerCGen/ShadowNodes.cpp.o
+[17/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/RNCAndroidDialogPickerState.cpp.o
+[18/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/71af840f7b8dadab50722a67a9cbf35d/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp.o
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:16:60: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   16 | void RNCAndroidDialogPickerEventEmitter::onSelect(OnSelect $event) const {
+      |                                                            ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:17:31: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   17 |   dispatchEvent("topSelect", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                               ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:17:48: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   17 |   dispatchEvent("topSelect", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:18:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   18 |     auto $payload = jsi::Object(runtime);
+      |          ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:19:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   19 |     $payload.setProperty(runtime, "position", $event.position);
+      |     ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:19:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   19 |     $payload.setProperty(runtime, "position", $event.position);
+      |                                               ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:20:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   20 |     return $payload;
+      |            ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:25:58: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   25 | void RNCAndroidDialogPickerEventEmitter::onFocus(OnFocus $event) const {
+      |                                                          ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:27:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   27 |     auto $payload = jsi::Object(runtime);
+      |          ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:29:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   29 |     return $payload;
+      |            ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:34:56: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   34 | void RNCAndroidDialogPickerEventEmitter::onBlur(OnBlur $event) const {
+      |                                                        ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:36:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   36 |     auto $payload = jsi::Object(runtime);
+      |          ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:38:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   38 |     return $payload;
+      |            ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:43:62: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   43 | void RNCAndroidDropdownPickerEventEmitter::onSelect(OnSelect $event) const {
+      |                                                              ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:44:31: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   44 |   dispatchEvent("topSelect", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                               ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:44:48: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   44 |   dispatchEvent("topSelect", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:45:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   45 |     auto $payload = jsi::Object(runtime);
+      |          ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:46:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   46 |     $payload.setProperty(runtime, "position", $event.position);
+      |     ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:46:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   46 |     $payload.setProperty(runtime, "position", $event.position);
+      |                                               ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:47:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   47 |     return $payload;
+      |            ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:52:60: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   52 | void RNCAndroidDropdownPickerEventEmitter::onFocus(OnFocus $event) const {
+      |                                                            ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:54:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   54 |     auto $payload = jsi::Object(runtime);
+      |          ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:56:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   56 |     return $payload;
+      |            ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:61:58: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   61 | void RNCAndroidDropdownPickerEventEmitter::onBlur(OnBlur $event) const {
+      |                                                          ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:63:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   63 |     auto $payload = jsi::Object(runtime);
+      |          ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:65:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   65 |     return $payload;
+      |            ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:70:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   70 | void RNCPickerEventEmitter::onChange(OnChange $event) const {
+      |                                               ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:71:28: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   71 |   dispatchEvent("change", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                            ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:71:45: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   71 |   dispatchEvent("change", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                             ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:72:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   72 |     auto $payload = jsi::Object(runtime);
+      |          ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:73:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   73 |     $payload.setProperty(runtime, "newValue", jsi::valueFromDynamic(runtime, $event.newValue));
+      |     ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:73:78: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   73 |     $payload.setProperty(runtime, "newValue", jsi::valueFromDynamic(runtime, $event.newValue));
+      |                                                                              ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:74:1: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   74 | $payload.setProperty(runtime, "newIndex", $event.newIndex);
+      | ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:74:43: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   74 | $payload.setProperty(runtime, "newIndex", $event.newIndex);
+      |                                           ^
+D:/vs code/ReactNative/FirstApp/node_modules/@react-native-picker/picker/android/build/generated/source/codegen/jni/react/renderer/components/rnpicker/EventEmitters.cpp:75:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   75 |     return $payload;
+      |            ^
+35 warnings generated.
+[19/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/71af840f7b8dadab50722a67a9cbf35d/source/codegen/jni/react/renderer/components/rnpicker/ShadowNodes.cpp.o
+[20/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/71af840f7b8dadab50722a67a9cbf35d/source/codegen/jni/react/renderer/components/rnpicker/States.cpp.o
+[21/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/RNCAndroidDialogPickerShadowNode.cpp.o
+[22/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/rnpicker.cpp.o
+[23/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/RNCAndroidDropdownPickerShadowNode.cpp.o
+[24/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/RNCAndroidDropdownPickerMeasurementsManager.cpp.o
+[25/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/710ea2c41fcff6a6f08c1e715e300342/codegen/jni/react/renderer/components/rnpicker/rnpickerJSI-generated.cpp.o
+[26/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/RNCAndroidDialogPickerMeasurementsManager.cpp.o
+[27/90] Building CXX object rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/react/renderer/components/rngesturehandler_codegen/States.cpp.o
+[28/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/710ea2c41fcff6a6f08c1e715e300342/codegen/jni/react/renderer/components/rnpicker/ComponentDescriptors.cpp.o
+[29/90] Building CXX object rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/react/renderer/components/rngesturehandler_codegen/EventEmitters.cpp.o
+[30/90] Building CXX object rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/react/renderer/components/rngesturehandler_codegen/Props.cpp.o
+[31/90] Building CXX object rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/bac033cd950586cef66695376748dd33/rngesturehandler_codegenJSI-generated.cpp.o
+[32/90] Building CXX object rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/react/renderer/components/rngesturehandler_codegen/ShadowNodes.cpp.o
+[33/90] Building CXX object rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/rngesturehandler_codegen-generated.cpp.o
+[34/90] Building CXX object rnpicker_autolinked_build/CMakeFiles/react_codegen_rnpicker.dir/0a8a6f339e5c10c2d278d6e8ac078c68/generated/source/codegen/jni/react/renderer/components/rnpicker/Props.cpp.o
+[35/90] Building CXX object rnreanimated_autolinked_build/CMakeFiles/react_codegen_rnreanimated.dir/rnreanimated-generated.cpp.o
+[36/90] Building CXX object rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/bac033cd950586cef66695376748dd33/ComponentDescriptors.cpp.o
+[37/90] Building CXX object rnreanimated_autolinked_build/CMakeFiles/react_codegen_rnreanimated.dir/react/renderer/components/rnreanimated/States.cpp.o
+[38/90] Linking CXX shared library "D:\vs code\ReactNative\FirstApp\android\app\build\intermediates\cxx\Debug\25y4w1o2\obj\armeabi-v7a\libreact_codegen_rnpicker.so"
+[39/90] Building CXX object rnreanimated_autolinked_build/CMakeFiles/react_codegen_rnreanimated.dir/react/renderer/components/rnreanimated/ShadowNodes.cpp.o
+[40/90] Building CXX object rnreanimated_autolinked_build/CMakeFiles/react_codegen_rnreanimated.dir/react/renderer/components/rnreanimated/Props.cpp.o
+[41/90] Building CXX object rnreanimated_autolinked_build/CMakeFiles/react_codegen_rnreanimated.dir/react/renderer/components/rnreanimated/ComponentDescriptors.cpp.o
+[42/90] Building CXX object rnreanimated_autolinked_build/CMakeFiles/react_codegen_rnreanimated.dir/react/renderer/components/rnreanimated/rnreanimatedJSI-generated.cpp.o
+[43/90] Building CXX object rnreanimated_autolinked_build/CMakeFiles/react_codegen_rnreanimated.dir/react/renderer/components/rnreanimated/EventEmitters.cpp.o
+[44/90] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/8fdad3274c24aaeed0d5a87fea43b318/react/renderer/components/safeareacontext/EventEmitters.cpp.o
